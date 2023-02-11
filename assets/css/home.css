@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 8rem;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main{
+   display: flex;
+   justify-content: center;
+   max-height: 25rem;
+   overflow: scroll;
+}
+
+.form-div{
+    display: flex;
+    justify-content: center;
+}
+
+.form-div input{
+    width: 75%;
+    height: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    font-size: 1rem;
+    
+}
+input:focus{
+    outline: none;
+}
